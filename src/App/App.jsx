@@ -12,14 +12,6 @@ const App = () => {
     return (
         <Router>
             <div>
-                <Link to='/auth'>
-                    Authorize
-                </Link>
-
-                <Link to='/dashboard'>
-                    Dashboard
-                </Link>
-
                 <Switch>
                     <Route path="/auth">
                         <Auth />
